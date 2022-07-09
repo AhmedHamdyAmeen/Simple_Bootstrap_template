@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap 5</title>
+  <!-- Link Bootstrap library -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+
+  <style>
+    body::before {
+      content: '';
+      display: block;
+      height: 82px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <section class="navbar navbar-expand-lg bg-dark navbar-dark text-white fixed-top">
+    <div class="container">
+      <div class="navbar-brand h1 fs-3">Hero</div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="main-menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="#hero" class="nav-link">Get Started</a></li>
+          <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">learn</a>
+            <ul class="dropdown-menu bg-dark bg-gradient p-2">
+              <li><a href="#learn" class=" text-warning text-decoration-none p-1 mb-4">Learn-Bootstrap</a></li>
+              <li><a href="#next" class=" text-warning text-decoration-none p-1">Where to go Next</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="#faq" class="nav-link">Ask Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero -->
+  <section id="hero" class="bg-dark text-light text-center py-5">
+    <div class="container">
+      <div class="d-md-flex align-items-center justify-content-center gap-5">
+        <div class="text-center text-lg-start">
+          <h1 class="display-4"><span class="text-warning">Allah</span> with me</h1>
+          <p class="py-3 lead">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis corrupti corporis magni, veritatis non
+            quaerat at excepturi voluptatum sed error?
+          </p>
+          <button class="btn btn-warning">Get Started</button>
+        </div>
+        <img class="d-lg-block img-fluid w-50 py-5" src="assets\img\hero-img.svg" alt="">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-3">
+        Features
+      </h2>
+
+      <div class="row text-center">
+        <div class="col-md-12 col-lg-4 mb-3 mb-lg-0">
+          <div class="card bg-dark text-light">
+            <!-- <img src="https://picsum.photos/300/200" alt="" class="card-img-top"> -->
+            <div class="h1 mt-5">
+              <i class="bi bi-building fs-1"></i>
+            </div>
+            <div class="card-body text-center m-4">
+              <h3 class="card-title text-warning mb-5">Responsive</h3>
+              <p class="card-text mb-3 lead text-light">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, modi?
+              </p>
+              <a href="#" class="btn btn-warning">learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
+          <div class="card bg-dark text-light">
+            <!-- <img src="https://picsum.photos/300/200" alt="" class="card-img-top"> -->
+            <div class="h1 mt-5">
+              <i class="bi bi-building fs-1"></i>
+            </div>
+            <div class="card-body text-center m-4">
+              <h3 class="card-title text-warning mb-5">Responsive</h3>
+              <p class="card-text mb-3 lead text-light">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, modi?
+              </p>
+              <a href="#" class="btn btn-warning">learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
+          <div class="card bg-dark text-light">
+            <!-- <img src="https://picsum.photos/300/200" alt="" class="card-img-top"> -->
+            <div class="h1 mt-5">
+              <i class="bi bi-building fs-1"></i>
+            </div>
+            <div class="card-body text-center m-4">
+              <h3 class="card-title text-warning mb-5">Responsive</h3>
+              <p class="card-text mb-3 lead text-light">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, modi?
+              </p>
+              <a href="#" class="btn btn-warning">learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What to Learn -->
+  <section id="learn" class="py-5  bg-dark">
+    <div class="container">
+      <div class="row text-center align-items-center justify-content-center">
+        <div class="col-12 col-lg-6 text-light">
+          <img src="assets\img\Learn.svg" alt="" class="img-fluid py-4">
+        </div>
+        <div class="col-12 col-lg-6 text-light">
+          <h2 class="h2 text-warning py-4">Learn Basics of the Web Design</h2>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero temporibus beatae aliquam tenetur corporis
+            distinctio, nobis ipsa, nesciunt ullam ipsum nostrum fugiat quisquam earum molestias facere unde, et aperiam
+            vero?
+          </p>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab nihil reprehenderit eaque cupiditate at
+            saepe hic blanditiis voluptatem asperiores?
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Next -->
+  <section id="next" class="py-5 ">
+    <div class="container">
+      <div class="row flex-row-reverse text-center align-items-center justify-content-center">
+        <div class="col-12 col-lg-6 ">
+          <img src="assets\img\Learn.svg" alt="" class="img-fluid py-4">
+        </div>
+        <div class="col-12 col-lg-6 ">
+          <h2 class="h2 text-warning py-4">Where To Go Next</h2>
+
+          <p class="lead ">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero temporibus beatae aliquam tenetur corporis
+            distinctio, nobis ipsa, nesciunt ullam ipsum nostrum fugiat quisquam earum molestias facere unde, et aperiam
+            vero?
+          </p>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ab nihil reprehenderit eaque cupiditate at
+            saepe hic blanditiis voluptatem asperiores?
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-3">
+        Frequently Asked Questions
+      </h2>
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Question Number #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+              collapse plugin adds the appropriate classes that we use to style each element. These classes
+              control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+              modify any of this with custom CSS or overriding our default variables. It's also worth noting
+              that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+              does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Question Number #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+              collapse plugin adds the appropriate classes that we use to style each element. These classes
+              control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+              modify any of this with custom CSS or overriding our default variables. It's also worth noting
+              that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+              does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Question Number #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+              collapse plugin adds the appropriate classes that we use to style each element. These classes
+              control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+              modify any of this with custom CSS or overriding our default variables. It's also worth noting
+              that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+              does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-3 bg-dark text-white text-center position-relative">
+    <h5>I am a Hero Web Ninja</h5>
+    <a href="#" id="" class="text-warning position-absolute bottom-0 end-0 p-3">
+      <i class="bi bi-arrow-up-circle h2"></i>
+    </a>
+  </footer>
+
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
